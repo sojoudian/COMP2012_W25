@@ -8,6 +8,8 @@ if os.path.exists(file_name):
         if content.strip():
             print("File content:")
             print(content)
+        else:
+            print("The file is empty!")    
 
 else:
     print("File not existed")
